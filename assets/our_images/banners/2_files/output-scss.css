@@ -3939,6 +3939,7 @@ input[type=file]::-webkit-file-upload-button {
 }
 
 /* Collection */
+
 .collection-item .bg-img img {
   transition: all ease 0.8s;
 }
@@ -3953,7 +3954,9 @@ input[type=file]::-webkit-file-upload-button {
 .collection-item .collection-name:hover {
   background-color: var(--black);
   color: var(--white);
+  
 }
+
 
 .collection-block.style-six .list-collection .swiper {
   overflow: unset;

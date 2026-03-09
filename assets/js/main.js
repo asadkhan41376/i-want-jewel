@@ -3613,7 +3613,6 @@ sections.forEach(section => {
   tabs.forEach(tab => {
     tab.addEventListener("click", () => {
 
-      // active class change
       tabs.forEach(t => t.classList.remove("active"));
       tab.classList.add("active");
 
@@ -3621,7 +3620,7 @@ sections.forEach(section => {
 
       products.forEach(product => {
 
-        if (product.dataset.item === filter) {
+        if (filter === "" || product.dataset.item === filter) {
           product.style.display = "block";
         } else {
           product.style.display = "none";

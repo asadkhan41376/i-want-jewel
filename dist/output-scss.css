@@ -427,7 +427,7 @@ input[type=file]::-webkit-file-upload-button {
 }
 
 .text-display {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 500;
   line-height: 88px;
   text-transform: capitalize;
@@ -3939,6 +3939,11 @@ input[type=file]::-webkit-file-upload-button {
 }
 
 /* Collection */
+
+.collection-item{
+  position:relative;
+ 
+}
 .collection-item .bg-img img {
   transition: all ease 0.8s;
 }
@@ -3947,8 +3952,19 @@ input[type=file]::-webkit-file-upload-button {
 }
 .collection-item .collection-name {
   position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  padding:5px;
+  left: 10%;
+  bottom:-100%;
+  /* transform: translateY(0%); */
+  width:80%;
+  opacity: 0;
+  transition: all ease 0.8s;
+  font-size:20px;
+}
+
+.collection-item:hover .collection-name{
+  opacity: 1;
+  bottom:30%;
 }
 .collection-item .collection-name:hover {
   background-color: var(--black);
