@@ -2102,7 +2102,9 @@ video {
 
 .bg-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(210 239 154 / var(--tw-bg-opacity));
+  background-color:#FF48B2;
+  color:#ffffff;
+  /* background-color: rgb(210 239 154 / var(--tw-bg-opacity)); */
 }
 
 .bg-line {

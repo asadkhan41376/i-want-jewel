@@ -295,7 +295,7 @@
 
 /* Main color */
 :root {
-  --green: #D2EF9A;
+  --green: #FF48B2;
   --black: #1F1F1F;
   --secondary: #696C70;
   --secondary2: #A0A0A0;
@@ -529,7 +529,7 @@ input[type=file]::-webkit-file-upload-button {
 }
 .button-main:hover {
   background-color: var(--green);
-  color: var(--black);
+  color: var(--white);
 }
 .button-main:hover svg path {
   fill: var(--black);
@@ -3967,7 +3967,7 @@ input[type=file]::-webkit-file-upload-button {
   bottom:30%;
 }
 .collection-item .collection-name:hover {
-  background-color: var(--black);
+  background-color: var(--green);
   color: var(--white);
 }
 
