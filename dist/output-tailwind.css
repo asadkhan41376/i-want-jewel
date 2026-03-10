@@ -2100,6 +2100,10 @@ video {
   background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 
+.bg-pink{
+   background-color:var(--green);
+}
+
 .bg-green {
   --tw-bg-opacity: 1;
   background-color:#FF48B2;
