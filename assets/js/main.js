@@ -2804,6 +2804,10 @@ var swiperListInstagram = new Swiper(".swiper-list-instagram", {
   },
 });
 
+
+
+
+
 // list-instagram 3
 var swiperListInstagram = new Swiper(".swiper-instagram-three", {
   loop: true,
@@ -3632,3 +3636,5 @@ sections.forEach(section => {
   });
 
 });
+
+

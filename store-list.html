@@ -2385,6 +2385,36 @@
 
         <script src="./assets/js/phosphor-icons.js"></script>
         <script src="./assets/js/swiper-bundle.min.js"></script>
-        <script src="./assets/js/main.js"></script>
+         <script src="./assets/js/hamburger.js"></script>
+    
+<script>
+var swiper = new Swiper(".instaSwiper", {
+  slidesPerView: 4,
+  spaceBetween: 10,
+
+  speed: 4000,
+
+  autoplay: {
+    delay: 1,
+    disableOnInteraction: false,
+  },
+
+  freeMode: true,
+  freeModeMomentum: false,
+
+  allowTouchMove: true,
+  grabCursor: true,
+
+  breakpoints: {
+    320: { slidesPerView: 2 },
+    640: { slidesPerView: 3 },
+    1024: { slidesPerView: 5 },
+  },
+});
+</script>
+
+
+
+    <script src="./assets/js/main.js"></script>
     </body>
 </html>

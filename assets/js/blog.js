@@ -126,7 +126,7 @@ function renderBlogs(page, blogs = []) {
             // redirect to detail
             blog.addEventListener('click', () => {
                 const blogId = blog.getAttribute('data-item')
-                window.location.href = `blog-detail1.html?id=${blogId}`;
+                window.location.href = `blog-detail2.html?id=${blogId}`;
             })
         })
     });
