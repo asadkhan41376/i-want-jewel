@@ -666,7 +666,7 @@ body {
    LARGE DESKTOP  ≥ 1280px
    ========================================================= */
 @media (min-width: 1280px) {
-  .navbar-top { padding: 0 48px; }
+  .navbar-top { padding: 0 130px; width: 60%; }
   .nav-menu { padding: 0 32px; }
   .hero-left { padding-left: 64px; }
   .hero-right { padding-right: 64px; }
